@@ -74,6 +74,9 @@ class AUTO_WORDTemp2PDF:
                 pdfPath = wordfilePath.replace(".docx", ".pdf")
                 if not os.path.isfile(pdfPath):
                     doc.ExportAsFixedFormat(pdfPath, 17, Item=7, CreateBookmarks=1)
+                    #doc.ExportAsFixedFormat(pdfPath, constants.wdExportFormatPDF,
+                    #                        Item=constants.wdExportDocumentWithMarkup,
+                    #                        CreateBookmarks=constants.wdExportCreateHeadingBookmarks)
                     print( wordfilePath.replace(".docx", ".pdf") + u' 生成成功' )
                 else:
                     print( pdfPath+u'已存在' )
@@ -83,6 +86,7 @@ class AUTO_WORDTemp2PDF:
         finally:
             doc.Close() # 关闭文档
             w.Quit(0)
+            #w.Quit(constants.wdDoNotSaveChanges)
 
     def get_pdfs(self,):
         self.__FillContents()

@@ -5,6 +5,7 @@
 ### 写在前边
 
 ​		一款Word模板自动生成PDF的工具。在**Word**中设置 `{{key}}`表示关键字`key`，同时相应**Excel**需要包含关键字`key`以及它的值，即可自动按照**Excel**中的信息填充**Word**模板，进而生成相应PDF。**Word** 模板、**Excel** 信息参考以及相应PDF参考 `test_case`目录。
+
 <img src="https://github.com/lervisnh/Auto_WordTemp2PDF/blob/master/figures/ui.jpg" style="zoom: 70%;" />
 
 

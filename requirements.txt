@@ -2,7 +2,7 @@ altgraph==0.17
 certifi==2019.11.28
 docxtpl==0.6.3
 future==0.18.2
-Jinja2==2.11.1
+Jinja2==2.11.3
 lxml==4.6.5
 MarkupSafe==1.1.1
 numpy==1.18.2

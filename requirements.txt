@@ -1,5 +1,5 @@
 altgraph==0.17
-certifi==2019.11.28
+certifi==2022.12.7
 docxtpl==0.6.3
 future==0.18.2
 Jinja2==2.11.3
